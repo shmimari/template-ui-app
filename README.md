@@ -1,3 +1,3 @@
 # template-ui
 
-A started node project with react and typescript
+A starter node project with react and typescript

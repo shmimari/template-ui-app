@@ -1,7 +1,7 @@
 {
   "name": "template-ui-app",
   "version": "0.1.0",
-  "private": true,
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development npm-run-all --parallel watch serve",
@@ -14,6 +14,12 @@
     "test": "test",
     "lint": "eslint --ext .js,.jsx src/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shmimari/template-ui.git"
+  },
+  "author": "Shadi Mimari",
+  "license": "",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
@@ -77,5 +83,9 @@
     "webpack-cli": "4.9.1",
     "webpack-dev-middleware": "5.0.0",
     "webpack-hot-middleware": "^2.25.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/shmimari/template-ui/issues"
+  },
+  "homepage": "https://github.com/shmimari/template-ui#readme"
 }
