@@ -1,0 +1,11 @@
+# do not run Prettier against Helm chart stuff
+helm-chart
+package.json
+package-lock.json
+.env
+.env.example
+Jenkinsfile
+.eslintrc
+.gitignore
+launch.json
+dist

@@ -1,0 +1,12 @@
+
+/node_modules/**
+.env
+.DS_STORE
+/build/**
+coverage
+report.tap
+report.xml
+/_helperScripts/*.token
+/dist/**
+tsconfig.tsbuildinfo
+docker-compose.yaml

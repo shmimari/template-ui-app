@@ -1,0 +1,10 @@
+{
+  "start": [
+    "src"
+  ],
+  "ext": "ts",
+  "ignore": [
+    "src/**/*.spec.ts"
+  ],
+  "exec": "ts-node -T -r dotenv/config ./src/server/server.js"
+}

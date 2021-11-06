@@ -1,0 +1,54 @@
+{
+    "env": {
+        "browser": true,
+        "jest": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "prettier/react",
+        "prettier/standard"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+          "experimentalObjectRestSpread": true,
+          "jsx": true
+        },
+        "sourceType": "module"
+      },
+    "plugins": ["import", "prettier", "react"],
+    "rules": {
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single"],
+        "prettier/prettier": "error",
+        "semi": ["error", "always"],
+        "no-unused-vars": ["error", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }],
+        "prefer-const": ["error"],
+        "no-var": ["error"],
+        "import/no-unresolved": [2, { "ignore": ["react-idle-timer"] }]
+    },
+    "settings": {
+        "import/resolver": {
+          "node": {
+            "extensions": [
+              ".js",
+              ".jsx",
+              ".ts",
+              ".tsx"
+            ]
+          }
+        },
+        "react": {
+            "version": "detect"
+        },
+        "linkComponents": [
+            "Hyperlink", {"name": "Link", "linkAttribute": "to"}
+        ]
+      }
+}
